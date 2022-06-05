@@ -76,15 +76,7 @@ function Navbar() {
                   })}
 
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Notes:-</h3>
                     <p>
-                      <q>
-                        <i>
-                          if colors indeices &gt; 10, the text color changes to
-                          a lighter one.
-                        </i>
-                      </q>
-                      <hr />
                       <p className="text-right italic my-4">
                         <q>Mohamed Salah Abdelazeem</q>
                       </p>
