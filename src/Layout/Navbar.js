@@ -22,8 +22,11 @@ function Navbar() {
       <PortalWithState closeOnOutsideClick closeOnEsc>
         {({ openPortal, closePortal, isOpen, portal }) => (
           <React.Fragment>
-            <button onClick={openPortal} className="underline">
-              Usage
+            <button
+              onClick={openPortal}
+              className="underline  text-[1.9rem] text-white"
+            >
+              Uses
             </button>
             {portal(
               <div
